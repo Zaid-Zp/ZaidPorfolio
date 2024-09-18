@@ -1,0 +1,30 @@
+create table student  
+(name varchar(10),age int(2));
+
+insert into student values('abc' ,20),('xyz',22);
+
+select * from student;
+
+select name from student;
+
+delete from student where name='abc';
+
+update student name='pqr' where name='xyz';
+
+create database databasename;
+
+use database;
+
+show database;
+
+desc student;
+
+truncate 
+
+drop student;
+
+alter student add id int(10);
+
+
+
+
